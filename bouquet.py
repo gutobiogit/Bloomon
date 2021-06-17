@@ -132,23 +132,24 @@ while True:
 
 
 #MAIN INTERATION WITH OBJECTS
-for flower in all_buq_formula * 10:
-    name = flower.design_name()#name::string = flower.design.name()::string
-    size_of = flower.size()#size_of ::string = flower.size()::string
-    one_set = flower.flowers()#one_set::dictionary = flower.flowers()::dictionary
-    max = int(flower.max_size())#max::int = flower.max_size()::string
-    adds = 0
-    final = {}#creating 
-    for buqu in one_set:
-        if buqu in all_flowers:
-            if all_flowers[buqu] >= 1:
-                final[buqu]=one_set[buqu]               
-    for summing in final:
-        adds+= final[summing]
-    redu(adds)
-    response=check_complete()
-    if response != "":
-        print(colors.BLUE,"BOUQUET FOUND ---> ", name,size_of,response, colors.ENDC,sep = "")
+if __init__ = "main":
+    for flower in all_buq_formula * 10:
+        name = flower.design_name()#name::string = flower.design.name()::string
+        size_of = flower.size()#size_of ::string = flower.size()::string
+        one_set = flower.flowers()#one_set::dictionary = flower.flowers()::dictionary
+        max = int(flower.max_size())#max::int = flower.max_size()::string
+        adds = 0
+        final = {}#creating 
+        for buqu in one_set:
+            if buqu in all_flowers:
+                if all_flowers[buqu] >= 1:
+                    final[buqu]=one_set[buqu]               
+        for summing in final:
+            adds+= final[summing]
+        redu(adds)
+        response=check_complete()
+        if response != "":
+            print(colors.BLUE,"BOUQUET FOUND ---> ", name,size_of,response, colors.ENDC,sep = "")
 
 # import unittest
 # from unittest import mock
